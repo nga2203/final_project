@@ -60,13 +60,13 @@ Optimizer: Adam
 
 Learning rate: 0.0005 (giảm theo StepLR)
 
-Batch size: 32
+Batch size: 64
 
-Epochs: 250
+Epochs: 25
 
 Loss function: Cross Entropy
 
-Mô hình được đánh giá bằng kiểm chứng chéo năm lần (five-fold cross-validation) với các chỉ số:
+Mô hình được đánh giá bằng kiểm chứng chéo năm lần (-fold cross-validation) với các chỉ số:
 Accuracy, Sensitivity, Specificity, F1-score, MCC và ROC-AUC.
 
 
